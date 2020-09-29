@@ -1,0 +1,9 @@
+com\tiagocoelho\game\Enemy.class
+com\tiagocoelho\game\Entity.class
+com\tiagocoelho\game\Player.class
+com\tiagocoelho\game\Observer.class
+com\tiagocoelho\game\Observable.class
+com\tiagocoelho\game\Weapon.class
+com\tiagocoelho\game\Armor.class
+com\tiagocoelho\game\Main.class
+com\tiagocoelho\game\Equipment.class
