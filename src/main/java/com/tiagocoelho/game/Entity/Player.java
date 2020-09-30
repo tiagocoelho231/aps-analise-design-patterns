@@ -1,14 +1,5 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package com.tiagocoelho.game.Entity;
 
-/**
- *
- * @author Tiago
- */
 public class Player extends Entity {
 
     public Player(String name, Integer maxHp) {
@@ -16,14 +7,14 @@ public class Player extends Entity {
     }
 
     @Override
-    protected Integer calculateAttack() {
+    protected Integer getBaseAttack() {
         Integer attack = 1;
         
         return attack;
     }
 
     @Override
-    protected Integer calculateDefense() {
+    protected Integer getBaseDefense() {
         Integer defense = 0;
 
         return defense;
